@@ -15,14 +15,47 @@
     
 </head>
 <body>
-        <div class="form-container">
+    <div class="row">
+      <div class="month-container">
+        <div class="header fs-white"> Your budget</div>
+        <div id="current-month=" class="sub-text fs-white">
+    </div> 
+        </div>
+        <div class="budget-container p-2 mt-4">
+            <span id="month-budget"class="month-amount">R6000</span></span>
+
+            <div class="chart-container">
+                <canvas id="expense-chart"></canvas>
+            
+    
+        <div class="col-8 right-container">
+            <div class="calc-container"></div>
+            <div class="header fs-dark-grey">Track Your Budget</div>
+            <div class="dropdown open">
+                <button class="btn btn-info dropdown-toggle" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ></button>
+                Expense type 
+                
+                <div class="dropdown-menu"></div>
+                <a class="dropdown-item" id="type-savings">savings</a>
+                <a class="dropdown-item" id="type-savings">savings</a>
+                <a class="dropdown-item" id="type-savings">savings</a>
+             
+            </div>
+        </div>
+
+        </div>
+      </div>  
+    </div>
+       
+    <div class="form-container">
             <form>
-                <label for="name">Name</label>
+                <label for ="name">Name</label><br>
                 <input id="name" type="text"> 
                <br> <label for="amount">Amount</label><br>
                 <input id="amount" type="number">
                 <button id="incomeBtn">Add Income</button><br><br>
                 <button id="expenseBtn">Add Expense</button>
+                <button id ="SavingBtn"> Saving</button>
             </form>
         </div>
     </div>
