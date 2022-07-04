@@ -1,0 +1,11 @@
+body{
+    background-color: white;
+    padding-right: 20px;
+    color: black;
+}
+
+.form-container{
+    padding-right: 0px;
+    border-color: black;
+    color: white;
+}
